@@ -1,0 +1,188 @@
+body {
+	font-family: Lato;
+	background: #36D1DC;
+	background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC); 
+	background: linear-gradient(to right, #5B86E5, #36D1DC); 
+	color: white;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 28px;
+	color: white;
+}
+
+.row-centered {
+	color: white;
+}
+
+.main.splash {
+	background-color: white;
+	
+}
+
+#customers h1 {
+	color: black;
+	text-align: center;
+	display: inline-block;
+	float: none;
+}
+
+
+.example {
+	background-color: #dddcdb;
+	border-radius: 8px;
+	height: 420px;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.example .channels .header {
+	font-size: 14px;
+	color: #666666;
+	padding: 20px;
+}
+
+.example .channels .user-row .activity {
+	height: 12px;
+	width: 12px;
+	display: inline-block;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.example .channels .channel {
+	padding-bottom: 20px;
+	font-size: 18px;
+	padding-left: 20px;
+	color: #666666;
+}
+
+.example .channels .user-row {
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+.example .channels .user-row .user {
+	font-size: 18px;
+	display: inline-block;
+}
+
+.example .channels .group-row .group {
+	font-size: 18px;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.example .channels .group-row .count {
+	text-align: center;
+	display: inline-block;
+	color: #58BAB4;
+	font-size: 10px;
+	background-color: white;
+	border-radius: 2px;
+	margin-right: 10px;
+	width: 12px;
+	line-height: 14px;
+	float: left;
+	margin-top: 6px;
+}
+
+.example .messages .avatar.donut.col {
+	border-radius: 50%;
+	width: 64px;
+	height: 64px;
+	display: inline-block;
+	float: left;
+	margin-left: 20px; 
+}
+
+.avatar.donut.col {
+	display: inline;
+}
+
+.bold {
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.example .message .avatar.purple {
+	background-color: #855BDA;
+}
+
+.example .message .avatar.green {
+	background-color: #58BAB4;
+	margin-top: 15px;
+}
+
+.example .message .avatar {
+	width: 64px;
+	height: 64px;
+	border-radius: 8px;
+	display: inline-block;
+	float: left;
+	margin-left: 20px;
+}
+
+.highlight {
+	display: inline;
+	color: #58BAB4;
+}
+
+.message .message-copy .text-offset {
+	padding-top: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+	font-size: 18px;
+	font-style: normal;
+	text-align: left;
+	color: black;
+
+}
+
+.message .message-copy .username {
+	font-weight: bold;
+	font-family: 'HK Grotesk Pro', sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	margin-left: 20px;
+	display: inline-block;
+	color: #333333;
+	box-sizing: border-box;
+	float: left;
+}
+
+.example .message .message-copy .text {
+	display: inline-block;
+	font-size: 18px;
+	line-height: 1.4;
+	margin-left: 20px;
+
+}
+
+.spacex2 {
+	height: 2em;
+}
+
+.spacex5 {
+	height: 5em;
+}
+
+.spacex10 {
+	height: 10em;
+}
+
+.message-copy {
+	display: inline-block;
+}
+
+.logo {
+	margin: 20px;
+	width: 175px;
+	height: 70px;
+	
+}
