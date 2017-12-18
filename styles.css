@@ -1,0 +1,117 @@
+* {
+	box-sizing: inherit;
+}
+
+html {
+	-webkit-tap-highlight-color: transparent;
+	cursor: default;
+	min-height: 100%;
+	overflow-x:hidden;
+	overflow-y: scroll;
+	line-height: 1.15;
+	display: block;
+
+}
+
+head {
+	display: none;
+}
+
+body {
+	background-color: #fafafa;
+	box-sizing: border-box;
+	color: rgba(0, 0, 0, .75);
+	font-family: Signika, -apple-system, BlinkMacSystemFont, SegoeUI, Roboto, Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	line-height: 1.5;
+	margin: 0;
+	display: block;
+}
+
+.site-header {
+	background-color: #40596b;
+
+}
+
+.container {
+	font-size: 1.25em;
+	margin: 0 auto;
+	max-width: 1200px;
+	padding: 0 1rem;
+	width: 100%;
+}
+
+div {
+	display: block;
+}
+
+.main-nav ul {
+	-webkit-box-align: center;
+	align-items: center;
+	display: flex;
+	-webkit-box-pack: center;
+	justify-content: center;
+	margin: 0;
+	padding: 1rem 0;
+}
+
+nav ul {
+	list-style: none;
+}
+
+ul {
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 40px;
+}
+
+main-nav li {
+	margin-right: 1rem;
+}
+
+li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+
+.main-nav a {
+	color: #ffd05a;
+	text-decoration: none;
+	transition: color .3s ease-in-out;
+}
+
+a {
+	background-color: transparent;
+}
+
+.hero {
+	-webkit-box-align: center;
+	align-items: center;
+	background-color: #55c0ec;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	justify-content: center;
+	min-height: calc(100vh - 12rem);
+}
+
+.page {
+	padding: 1rem;
+}
+
+.hero__description h1 {
+	color: rgba(0, 0, 0, .6);
+	font-size: 5rem;
+	letter-spacing: -.1875rem;
+	line-height: 1;
+	margin-bottom: 2rem;
+}
+
+.reveal-item--visible {
+	opacity: 1;
+	transform: translateY(0);
+}
